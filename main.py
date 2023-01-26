@@ -42,7 +42,12 @@ import json
 
 print("Connecting to database")
 
-db = psycopg2.connect(database="postgres", user="postgres", password="root", host="localhost", port="5432")
+db = psycopg2.connect(
+            database="imredd",
+            user="imredd",
+            password="LVFfzkZ4kCpNQEwJtY1Mpf4wIPXwRRxg",
+            host="dpg-cf8jgkpmbjss4md9k830-a.frankfurt-postgres.render.com",
+            port="5432")
 
 # create a cursor to navigate in the database:
 
